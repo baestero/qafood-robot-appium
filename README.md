@@ -1,6 +1,6 @@
 # Testes Automatizados Robot + Appium - QAfood
 
-Este projeto contém testes automatizados utilizando **Robot Framework** e **Appium** para testar o aplicativo **QAfood** (APK). Atualmente, o foco está na validação da funcionalidade de login, com cenários de testes documentados para garantir o funcionamento adequado.
+Este projeto contém testes automatizados utilizando **Robot Framework** e **Appium** para testar o aplicativo **QAfood** (APK). Com cenários de testes documentados para garantir o funcionamento adequado e algumas sugestões de melhorias ao decorrer dos testes.
 
 ## Tabela de Conteúdos
 
@@ -219,5 +219,3 @@ Este projeto está licenciado sob a Licença MIT.
 ## Autores
 
 - Leonardo Baestero - [GitHub](https://github.com/baestero)
-
----
