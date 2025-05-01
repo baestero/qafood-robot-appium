@@ -107,5 +107,3 @@ Este projeto está licenciado sob a Licença MIT.
 ## Autores
 
 - Leonardo Baestero - [GitHub](https://github.com/baestero)
-
----
