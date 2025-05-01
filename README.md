@@ -9,6 +9,7 @@ Este projeto contém testes automatizados utilizando **Robot Framework** e **App
 - [Configuração do Ambiente](#configuração-do-ambiente)
 - [Uso](#uso)
 - [Testes Automatizados](#testes-automatizados)
+- [Documentação e Bug Reports](#documentação-e-bug-reports)
 - [Licença](#licença)
 
 ## Descrição
@@ -92,6 +93,13 @@ Isso irá executar todos os testes definidos no arquivo `login.robot`, que abrem
 
 Os testes estão organizados em arquivos **.robot** utilizando a sintaxe do **Robot Framework**. Caso queira ver os cenários ou planos de teste completos, consulte a raiz do projeto para acessar os outros arquivos de teste e planos detalhados.
 
+## Documentação e Bug Reports
+
+- A **documentação dos cenários de teste** está localizada na pasta `docs/` do repositório.
+- **Relatórios de bugs** podem ser encontrados na pasta `bugs/`.
+
+Essas pastas contêm todos os detalhes sobre os testes realizados e qualquer relatório de falhas encontrado durante a execução dos testes.
+
 ## Licença
 
 Este projeto está licenciado sob a Licença MIT.
@@ -99,3 +107,5 @@ Este projeto está licenciado sob a Licença MIT.
 ## Autores
 
 - Leonardo Baestero - [GitHub](https://github.com/baestero)
+
+---
