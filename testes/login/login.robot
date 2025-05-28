@@ -1,7 +1,7 @@
 * Settings *
 Library  AppiumLibrary
 Suite Setup  Set Appium Timeout  10s
-Resource  login-pass.robot
+Resource  ../variables.robot
 
 * Keywords *
 Abrir aplicativo teste
@@ -9,7 +9,7 @@ Abrir aplicativo teste
   ...  automationName=UiAutomator2
   ...  platformName=Android
   ...  deviceName=Pixel4
-  ...  app=C:\\Users\\leonardo.baestero\\Desktop\\QAfood\\app\\qazandofood.apk
+  ...  app=C:\\Users\\leonardo.baestero\\Desktop\\github-baestero\\QAfood\\app\\qazandofood.apk
   ...  udid=emulator-5554
 
 Login
