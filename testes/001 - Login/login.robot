@@ -16,8 +16,8 @@ Login
   Wait Until Element Is Visible  ${TITULO_INICIAL}  10S
   Input Text  accessibility_id=email  ${EMAIL}
   Input Text  accessibility_id=password  ${SENHA}
-  Click Element  accessibility_id=login-button
-  Wait Until Page Contains Element    ${SELECIONE_ENDEREÇO}  10s
+  Click Element  ${BOTAO_LOGIN} 
+  Wait Until Page Contains Element    ${BOTAO_SELECIONE_ENDEREÇO}  10s
 
 Aguardar
   Sleep    5s
@@ -33,7 +33,7 @@ Cenario 2: Login com senha inválida
   Aguardar
   Input Text  accessibility_id=email  ${EMAIL}
   Input Text  accessibility_id=password  123
-  Click Element  accessibility_id=login-button
+  Click Element  ${BOTAO_LOGIN} 
   Element Should Be Visible  ${ERRO_LOGIN}  
 
 Cenario 3: Login com email não cadastrado
@@ -41,13 +41,13 @@ Cenario 3: Login com email não cadastrado
   Aguardar
   Input Text  accessibility_id=email  email@errado.com
   Input Text  accessibility_id=password  123
-  Click Element  accessibility_id=login-button
+  Click Element  ${BOTAO_LOGIN} 
   Element Should Be Visible  ${ERRO_LOGIN}  
 
 Cenario 4: Login com campos vazios
   Abrir aplicativo teste
   Aguardar
-  Click Element  accessibility_id=login-button
+  Click Element  ${BOTAO_LOGIN} 
   Element Should Be Visible  ${ERRO_LOGIN}  
 
 Cenario 5: Logout com sucesso 
